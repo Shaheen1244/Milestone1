@@ -1,0 +1,471 @@
+/* General styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 150px 0;
+}
+
+.resume-container {
+  display: flex;
+  background-color: white;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+/* Left Section Styling */
+.left-section {
+  max-width: 600px;
+  background-color: #2c2c2c;
+  color: white;
+  padding: 20px;
+  width: 35%;
+  text-align: center;
+  border-right: 5px solid #5f39e6;
+}
+
+.profile-picture {
+  width: 150px; /* Default size */
+  height: 150px;
+  margin-top: 10%;
+  border-radius: 50%;
+  border: 5px solid #5f39e6;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 10px 0;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 18px;
+  padding: 2px;
+  margin: 20px 0 10px;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #5f39e6;
+  margin-top: 5%;
+}
+
+ul {
+  list-style-type: fill round;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+/* Right Section Styling */
+.right-section {
+  padding: 20px;
+  width: 65%;
+}
+
+button {
+  font-family: Arial, sans-serif;
+  border-radius: 10px;
+  box-shadow: 0 0 15px black;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #5f39e6;
+}
+
+/* Default styles (for large screens) */
+body {
+  font-size: 16px;
+}
+
+/* For devices with screen width less than 768px (like tablets and mobile phones) */
+@media (max-width: 768px) {
+  body {
+      font-size: 14px;
+  }
+
+  .resume-container {
+      flex-direction: column;
+      width: 90%; /* Make the container width smaller for better mobile view */
+  }
+
+  .left-section {
+      width: 100%; /* Left section takes full width */
+      margin-bottom: 20px; /* Space between sections */
+  }
+
+  .profile-picture {
+      width: 120px; /* Reduce image size on smaller screens */
+      height: 120px;
+  }
+
+  h1 {
+      font-size: 20px;
+  }
+
+  h3 {
+      font-size: 16px;
+  }
+}
+
+/* For devices with screen width less than 480px (like smaller mobile phones) */
+@media (max-width: 480px) {
+  body {
+      font-size: 12px;
+  }
+
+  .resume-container {
+      flex-direction: column;
+      width: 100%; /* Full-width container */
+  }
+
+  .left-section {
+      width: 100%; /* Left section full width */
+  }
+
+  .profile-picture {
+      width: 100px; /* Even smaller image size */
+      height: 100px;
+  }
+
+  h1 {
+      font-size: 18px;
+  }
+
+  h3 {
+      font-size: 14px;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px; /* Max width to prevent stretching */
+  margin: 0 auto; /* Centering the content */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* General styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 150px 0;
+}
+
+.resume-container {
+  display: flex;
+  background-color: white;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+/* Left Section Styling */
+.left-section {
+  max-width: 600px;
+  background-color: #2c2c2c;
+  color: white;
+  padding: 20px;
+  width: 35%;
+  text-align: center;
+  border-right: 5px solid #5f39e6;
+}
+
+.profile-picture {
+  width: 150px; /* Default size */
+  height: 150px;
+  margin-top: 10%;
+  border-radius: 50%;
+  border: 5px solid #5f39e6;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 10px 0;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 18px;
+  padding: 2px;
+  margin: 20px 0 10px;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #5f39e6;
+  margin-top: 5%;
+}
+
+ul {
+  list-style-type: fill round;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+/* Right Section Styling */
+.right-section {
+  padding: 20px;
+  width: 65%;
+}
+
+button {
+  font-family: Arial, sans-serif;
+  border-radius: 10px;
+  box-shadow: 0 0 15px black;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #5f39e6;
+}
+
+/* Default styles (for large screens) */
+body {
+  font-size: 16px;
+}
+
+/* For devices with screen width less than 768px (like tablets and mobile phones) */
+@media (max-width: 768px) {
+  body {
+      font-size: 14px;
+  }
+
+  .resume-container {
+      flex-direction: column;
+      width: 90%; /* Make the container width smaller for better mobile view */
+  }
+
+  .left-section {
+      width: 100%; /* Left section takes full width */
+      margin-bottom: 20px; /* Space between sections */
+  }
+
+  .profile-picture {
+      width: 120px; /* Reduce image size on smaller screens */
+      height: 120px;
+  }
+
+  h1 {
+      font-size: 20px;
+  }
+
+  h3 {
+      font-size: 16px;
+  }
+}
+
+/* For devices with screen width less than 480px (like smaller mobile phones) */
+@media (max-width: 480px) {
+  body {
+      font-size: 12px;
+  }
+
+  .resume-container {
+      flex-direction: column;
+      width: 100%; /* Full-width container */
+  }
+
+  .left-section {
+      width: 100%; /* Left section full width */
+  }
+
+  .profile-picture {
+      width: 100px; /* Even smaller image size */
+      height: 100px;
+  }
+
+  h1 {
+      font-size: 18px;
+  }
+
+  h3 {
+      font-size: 14px;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px; /* Max width to prevent stretching */
+  margin: 0 auto; /* Centering the content */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 150px 0;
+}
+
+.resume-container {
+    display: flex;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+/* Left Section Styling */
+.left-section {
+    max-width: 600px;
+    background-color: #2c2c2c;
+    color: white;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid #5f39e6;
+}
+
+.profile-picture {
+    width: 150px; /* Default size */
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid #5f39e6;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    padding: 2px;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #5f39e6;
+    margin-top: 5%;
+}
+
+ul {
+    list-style-type: fill round;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Right Section Styling */
+.right-section {
+    padding: 20px;
+    width: 65%;
+}
+
+button {
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #5f39e6;
+}
+
+/* Default styles (for large screens) */
+body {
+    font-size: 16px;
+}
+
+/* For devices with screen width less than 768px (like tablets and mobile phones) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .resume-container {
+        flex-direction: column;
+        width: 90%; /* Make the container width smaller for better mobile view */
+    }
+
+    .left-section {
+        width: 100%; /* Left section takes full width */
+        margin-bottom: 20px; /* Space between sections */
+    }
+
+    .profile-picture {
+        width: 120px; /* Reduce image size on smaller screens */
+        height: 120px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+}
+
+/* For devices with screen width less than 480px (like smaller mobile phones) */
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+
+    .resume-container {
+        flex-direction: column;
+        width: 100%; /* Full-width container */
+    }
+
+    .left-section {
+        width: 100%; /* Left section full width */
+    }
+
+    .profile-picture {
+        width: 100px; /* Even smaller image size */
+        height: 100px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px; /* Max width to prevent stretching */
+    margin: 0 auto; /* Centering the content */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
